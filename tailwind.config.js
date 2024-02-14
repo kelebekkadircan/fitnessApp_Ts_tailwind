@@ -15,7 +15,7 @@ module.exports = {
         "secondary-400": "#FFCD5B",
         "secondary-500": "#FFC132",
       },
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+
       backgroundImage: (theme) => ({
         "gradient-yellowred":
           "linear-gradient(90deg, #FF616A 0%, #FFC837 100%)",
