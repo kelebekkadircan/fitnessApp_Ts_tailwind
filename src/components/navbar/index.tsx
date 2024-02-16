@@ -20,7 +20,7 @@ const Navbar = ({
     const flexBetween = " flex items-center justfiy-between ";
     const [isMenuToggled, setIsMenuToggled] = useState<boolean>(false);
     const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
-    const navbarBackground = isTopOfPage ? "" : "bg-primary-100 drop-shadow";
+    const navbarBackground = isTopOfPage ? "" : "bg-primary-100 drop-shadow transition duration-500";
 
 
     return <nav>

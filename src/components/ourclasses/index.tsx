@@ -79,7 +79,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
                 </div>
 
             </motion.div>
-            <div className='mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden bg-green-300 ' >
+            <div className='mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden  ' >
                 <ul
                     className='w-[2800px] whitespace-nowrap  '
                 >
